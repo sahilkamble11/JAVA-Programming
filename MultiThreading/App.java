@@ -1,13 +1,11 @@
 package com.tap.sahil.demo;
 
-
 public class App 
 {
     static void serveCustomer(String name){
         System.out.println(name+" service started ...");
         try {
             Thread.sleep(2000);
-            
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
