@@ -1,12 +1,14 @@
 package com.tap.sahil.demo;
 import java.util.concurrent.CompletableFuture;
 
-public class DemoCompletableFuture {
+public class DemoCompletableFuture
+ {
     
     public static void main(String[] args) {
         System.out.println("Order placed for coffee...");
 
-        CompletableFuture<Void> coffeeReady = CompletableFuture.runAsync(() -> {
+        CompletableFuture<Void> coffeeReady = CompletableFuture.runAsync(() -> 
+        {
             try { Thread.sleep(2000); } catch (InterruptedException e) {}
             System.out.println("Coffee is ready!");
         });
