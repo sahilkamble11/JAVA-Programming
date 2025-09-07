@@ -2,7 +2,8 @@ import java.sql.*;
 import java.sql.Connection;
 import java.util.Scanner;
 
-public class delete_data {
+public class delete_data 
+{
     public static void main(String[] args) 
     {
         String URL="jdbc:mysql://localhost:3306/TFLMentoringDB";
@@ -29,5 +30,4 @@ public class delete_data {
             e.printStackTrace();
         }
     }
-    
 }
