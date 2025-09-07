@@ -3,7 +3,8 @@ import java.sql.Connection;
 import java.util.Scanner;
 
 public class delete_data {
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         String URL="jdbc:mysql://localhost:3306/TFLMentoringDB";
         String USERNAME="root";
         String PASSWORD="password";
